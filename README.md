@@ -119,6 +119,7 @@ playwright codegen https://example.com
 If you use Visual Studio Code, the [Playwright Test for VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) provides an integrated codegen experience:
 - Record user actions and generate code directly in your editor.
 - Easily insert locators and actions into your test files.
+- This does not support Python yet, but works for node.js tests
 
 ### 3. Using `page.pause()` for Interactive Debugging
 
@@ -126,7 +127,6 @@ You can add `page.pause()` in your script to pause execution and open the Playwr
 - Explore the page interactively.
 - Hover over elements to get suggested locators.
 - Resume script execution when ready.
-- Important! page.pause() will not work when running tests with pytest.
 
 Example:
 ```python
