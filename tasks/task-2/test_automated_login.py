@@ -1,6 +1,6 @@
 from playwright.sync_api import sync_playwright, expect
 
-# Task 3:
+# Task 2:
 # Open the swag labs website and log in with the standard user credentials.
 # After logging in, check that the title "Products" is visible.
 
